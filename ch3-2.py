@@ -1,0 +1,5 @@
+se = int(input("여성이면 1, 남성이면 0을 입력하세요:"))
+height = float(input("당신의 키는 얼마입니까?"))
+wei = float(input("당신의 허리 둘레는 얼마입니까?"))
+rfm = 64-(20*(height/wei)+12*se)
+print("당신의 RFM은",rfm)
