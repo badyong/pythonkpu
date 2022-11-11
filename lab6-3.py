@@ -6,4 +6,4 @@ def weeklyPay(rate, hour):
     return money
 r = int(input("시급을 입력하세요:"))
 h = int(input("근무 시간을 입력하시오:"))
-print("주급은" + str(weeklyPay(rate = r, hour = h)))
+print("주급은" + str(weeklyPay(r,h)))
